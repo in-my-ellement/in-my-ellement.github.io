@@ -1,0 +1,41 @@
+@keyframes cursor {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+img.photo {
+  max-width: 20%;
+  float: right;
+  padding: 15px;
+}
+
+div.title {
+  font-size: 240%;
+  font-family: monospace;
+  
+  padding-bottom: 10px;
+}
+
+div.title:after {
+  content: '_';
+  animation: cursor 1.2s steps(1) infinite;
+}
+
+div.subtitle {
+  font-size: 120%;
+  color: #6c5d75;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 7%;
+}
