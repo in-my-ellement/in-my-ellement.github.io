@@ -16,6 +16,10 @@ img.photo {
   padding: 15px;
 }
 
+div.flex {
+	display: flex;
+}
+
 div.title {
   font-size: 240%;
   font-family: monospace;

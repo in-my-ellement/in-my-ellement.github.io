@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
 
-    <title>ell@clemson:~$</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-    
-    <script>
-	// change title back and forth to match flickering cursor effect
-	setInterval(() => {
-	  // check current value
-	  if (document.title == "ell@clemson:~$") {
-	    document.title = "ell@clemson:~$ _";
-	  } else {
-	    document.title = "ell@clemson:~$";
-	  }
-	}, 1200);	
-    </script>
-  </head>
-  <body>
-    
+  <title>ell@clemson:~$</title>
+
+  <!-- The website stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <script>
+    // change title back and forth to match flickering cursor effect
+    setInterval(() => {
+      // check current value
+      if (document.title == "ell@clemson:~$") {
+        document.title = "ell@clemson:~$ _";
+      } else {
+        document.title = "ell@clemson:~$";
+      }
+    }, 1200);	
+  </script>
+</head>
+
+<body>
+  <div class="flex">
     <div class="header">
-      <img class="photo" src="https://cdn.glitch.global/fd510526-8a72-4ea4-88cf-0e2fc043d3e5/ell.png?v=1724163994892">
       <div class="title">ell@clemson:~$ </div>
       <div class="subtitle">Math + CS Student at Clemson University </div>
+
+      <p>
+        Hi! I'm Ell Torek, an undergraduate student and teaching assistant in the Clemson University Honors College, the
+        School of Computing, and the School of Mathematical and Statistical Sciences. I'm interested in theoretical
+        computer science, programming languages, and formal verification methods.<br><br>
+
+        I represent Clemson in <a href="https://icpc.global/">ICPC</a> and the <a
+          href="https://kskedlaya.org/putnam-archive/">Putnam Competition</a>. I'm also president of the <a
+          href="https://www.cs.clemson.edu/acm/">Clemson University ACM Student Chapter</a>.
+      </p>
+
+      <p>
+        Feel free to contact me at <a href="mailto:ctorek@clemson.edu">ctorek@clemson.edu</a>.
+      </p>
     </div>
-    
-    <p>
-      Hi! I'm Ell Torek, an undergraduate student at Clemson University studying mathematics and computer science.
-      I also represent Clemson in <a href="https://icpc.global/">ICPC</a> and the <a href="https://kskedlaya.org/putnam-archive/">Putnam Competition</a>.
-    </p>
-    
-    <p>
-      Feel free to contact me at <a href="mailto:ctorek@clemson.edu">ctorek@clemson.edu</a>.
-    </p>
-    
-    <div class="content">
-      <h3>Education</h3>
-      B.S. in Mathematics and Computer Science. Clemson University, 2027.
-      
-      <h3>Teaching</h3>
-      TA for CPSC 1070: Programming Methodology at Clemson University. (Spring 2024, Fall 2024) 
-      
-      <h3>Honors + Awards</h3>
-      President's List, Clemson University, Fall 2023 & Spring 2024
-      
-      <h3>Service</h3>
-      Volunteer, Clemson Math-In, December 2023 - Present
-      
-    </div>
-    
-  </body>
+
+    <img class="photo" src="assets/ell.png">
+  </div>
+
+  <div class="content">
+    <h3>Education</h3>
+    B.S. in Mathematics and Computer Science. Clemson University, 2027.
+
+    <h3>Teaching</h3>
+    TA for CPSC 1070: Programming Methodology at Clemson University. (Spring 2024, Fall 2024)
+
+    <h3>Honors + Awards</h3>
+    <p>President's List, Clemson University, Fall 2023 & Spring 2024</p>
+
+    <h3>Service</h3>
+    <p>Organizer, CUHackit, October 2024 - Present</p>
+    <p>President, Clemson ACM, September 2024 - Present</p>
+    <p>Volunteer Tutor, Clemson Math-In, December 2023 - Present</p>
+  </div>
+
+</body>
+
 </html>
