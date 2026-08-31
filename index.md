@@ -19,6 +19,7 @@ I'm interested in making it easier for developers to build safe software and spe
 
 I'm currently working with [Hemant Gouni](https://hgouni.com/) and [Jonathan Aldrich](https://www.cs.cmu.edu/~aldrich/) on designing approaches for elegantly handling mutable state in information flow type systems. 
 
+- **IWACO 2026**. *Information Borrowing*. Hazel Torek, Hemant Gouni, and Jonathan Aldrich.
 - [Poster](./assets/files/reuse26-poster.pdf) from the REUSE 2026 poster session. 
 
 #### Gradual Verification
